@@ -97,7 +97,7 @@ margin: 10px;
 }
 .vid{
 	display: flex;
-	display:inline-block;
+	display:block;
 	text-align: center;
 	
 
