@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  background-color: black;
 }
 .jumbotron{
 	height:auto;
@@ -41,6 +42,7 @@ a{
 .mob {
 	float:left; 
 height:280px;
+margin:10px;
  }
  .dwnld{
  	height:150px;
@@ -52,7 +54,7 @@ height:280px;
  }
  .jumbflex{
  	height: 70%;
-	background-image: url("https://img4.goodfon.com/wallpaper/nbig/b/72/rendering-3d-devushka-poza-mech-oruzhie-vzgliad-fon.jpg");
+	background-image: url("https://alphabetagamer-3kkpqwvtmi.netdna-ssl.com/wp-content/uploads/2016/12/behind-the-wallpaper-game.gif?x64971");
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,13 +66,17 @@ height:280px;
 .mob1{
 float:right; 
 height:280px;
-background-color: rgba(255,255,255,0)
+background-color: rgba(255,255,255,0);
+margin:10px;
+
 
 }
 .mob2{
 	float:right; 
 height:400px;
-background-color: rgba(255,255,255,0)
+background-color: rgba(255,255,255,0);
+margin:10px;
+
 }
 .jumbflex .content1{
 		position: absolute; 
@@ -95,26 +101,32 @@ font-size: 50px;
 margin: 10px;
 
 }
+.fab:hover{
+	transform:scale(1.2);
+}
 .vid{
-	display: flex;
-	display:block;
-	text-align: center;
-	
+		text-align: center;
+	display:inline-block;
+	width:100%;
 
 
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 600px;
-  margin: 10px;
+  width: auto;
+  margin: 20px;
   text-align: center;
+  display: flex;
+  display: inline-block;
 
 }
 
 .card:hover {
+
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+  transform: scale(1.05);
+  }
 iframe{
 		height:315px;
 	margin:20px;
@@ -128,6 +140,8 @@ iframe{
 }
 .fottxt{
 		font-size:20px;
+		transform: scale(1.1);
+
 }
 .footer1{
     background-color:rgba(255, 99, 71,0.8); 
@@ -138,6 +152,22 @@ iframe{
 }
 hr{
 	margin: 0;
+	border-color:white;
+}
+p{  color:white;
+	/*animation-name: example;
+  animation-duration: 8s;*/
+  /*animation-iteration-count: infinite;*/
+}
+/*@keyframes example {
+  0%   {color: black;}
+   100% {color: white;}
+}
+*/.jumbotron{
+	background-color: #1C2833;
+}
+h2{
+	color: white;
 }
 
 
